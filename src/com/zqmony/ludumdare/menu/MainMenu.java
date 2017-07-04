@@ -38,6 +38,6 @@ public class MainMenu extends Menu{
 			Font.render(screen, "Play", 134, 100, 0xffffff, 1);
 			Font.render(screen, "About", 130, 115, 0x00ddff, 1);
 		}
-		Font.render(screen, "Made by Quantomic Productions", 5, 185, 0xffffff, 1);
+		Font.render(screen, "Made by Justin Symmank", 5, 185, 0xffffff, 1);
 	}
 }

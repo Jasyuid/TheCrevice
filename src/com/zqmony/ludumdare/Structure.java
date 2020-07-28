@@ -74,7 +74,7 @@ public class Structure {
 			else if(check == 3) setLevel(new Level_Three("/levels/level_3.png", this));
 			else if(check == 4) setLevel(new BossLevel("/levels/bosslevel.png", this));
 		}
-		else if(dif == 1) setLevel(new StartLevel("/levels/start.png", this));
+		else if(dif == 1) setLevel(new Level_One("/levels/level_1.png", this));
 		
 		state = 1;
 	}

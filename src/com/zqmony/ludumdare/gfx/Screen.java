@@ -97,7 +97,6 @@ public class Screen{
 	
 	public void renderText(int xp, int yp, int character, int color, int scale){
 		int offset = ((character % 28) << 3) + ((character / 28) << 3) * Image.font.width;
-		System.out.println(offset);
 		
 		for(int y = 0; y < 8; y++){
 			int yy = yp + y;

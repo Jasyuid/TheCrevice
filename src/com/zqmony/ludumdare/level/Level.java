@@ -70,14 +70,14 @@ public class Level {
 	
 	public void render(Screen screen){
 		levelx = -(px - screen.width/2 + 8);
-		levely = -(py - screen.height/2 + 16);
+		levely = -(py - screen.height/2 + 8);
 		
 		screen.setOffset(levelx, levely);
 		
-		int x0 = -levelx >> 5;
-		int x1 = (-levelx + screen.width + 32) >> 5;
-		int y0 = -levely >> 5;
-		int y1 = (-levely + screen.height + 32) >> 5;
+		int x0 = -levelx >> 4;
+		int x1 = (-levelx + screen.width + 32) >> 4;
+		int y0 = -levely >> 4;
+		int y1 = (-levely + screen.height + 32) >> 4;
 		
 		for(int y = y0; y < y1; y++){
 			for(int x = x0; x < x1; x++){

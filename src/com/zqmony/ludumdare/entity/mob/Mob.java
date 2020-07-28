@@ -107,7 +107,7 @@ public class Mob extends Entity{
 		boolean solid = false;
 		for(int c = 0; c < 4; c++){
 			double xt = ((x + xa) + c % 2 * 15) /16;
-			double yt = ((y + ya) + c / 2 * 8 + 15) /16;
+			double yt = ((y + ya) + c / 2 * 8 + 8) /16;
 			if(level.getTile((int)xt, (int)yt).solid()) solid = true;
 		}
 		return solid;
